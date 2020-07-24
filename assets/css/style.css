@@ -6658,6 +6658,7 @@ button {
   line-height: 52px;
   border-radius: 100%;
 }
+
 .shop_details .share_links .list_title {
   font-size: 16px;
 }
@@ -10020,8 +10021,24 @@ button {
 /*  ====================================================================================================
 01 - media screen and (max-width: 1440px) - start
 ==================================================================================================== */
+
+@media screen and (min-width:1900px){
+  .mobileThumbs {
+    margin-top: 150px;
+  }
+  .mobileDesc {
+    margin-top: -150px;
+  }
+}
 @media screen and (max-width: 1890px) {
   /* home hr management - start */
+
+  .mobileThumbs {
+    margin-top: 150px;
+  }
+  .mobileDesc {
+    margin-top: -150px;
+  }
   .intregation_section .apps_wrap.wrap_left {
     left: 110px;
   }
@@ -12181,6 +12198,12 @@ button {
     width: 500px;
   }
 
+  .mobileThumbs {
+    margin-top: 0px;
+  }
+  .mobileDesc {
+    margin-top: -200px;
+  }
   /* about page - end */
   /* register page - start */
   .register_section .signup_wrap .info_wrap h3 {
@@ -13957,6 +13980,12 @@ button {
     padding: 40px 30px;
   }
 
+  .mobileThumbs {
+    margin-top: 0px;
+  }
+  .mobileDesc {
+    margin-top: -300px;
+  }
   .pricing_plan_1 .pricing_header.mb-50 {
     margin-bottom: 30px;
   }
@@ -15766,6 +15795,12 @@ button {
     font-size: 30px;
   }
 
+  .mobileThumbs {
+    margin-top: 0px;
+  }
+  .mobileDesc {
+    margin-top: -150px;
+  }
   /* global reset - end */
   /* header - start */
   .sticky_header.stuck {
@@ -17471,6 +17506,12 @@ button {
   .sidebar_section {
     max-width: 370px;
     margin: 50px auto 0px;
+  }
+  .mobileThumbs {
+    margin-top: 0px;
+  }
+  .mobileDesc {
+    margin-top: 0px;
   }
 
   /* sidebar section - end */
@@ -20348,6 +20389,13 @@ button {
   .digital_agency_banner .banner_image {
     max-width: 130px;
   }
+  .mobileThumbs {
+    margin-top: 0px;
+  }
+  .mobileDesc {
+    margin-top: -50px;
+  }
+
 
   .digital_agency_banner .shape_1 {
     top: -40px;
