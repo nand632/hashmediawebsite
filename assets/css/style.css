@@ -8035,7 +8035,7 @@ button {
 /* banner section - start */
 .app_landing_banner {
   background-size: auto 100%;
-  background-position: left top;
+  background-position: center;
 }
 .app_landing_banner .banner_image {
   position: relative;
@@ -8094,7 +8094,7 @@ button {
   transform: translateX(-50%);
   background-repeat: no-repeat;
   box-shadow: 0px 23px 42px rgba(0, 0, 0, 0.2);
-  background-image: url(../images/showcase/mobile_frame.png);
+  background-image: url(../images/Mobile/main.png);
 }
 .showcase_section .appScreenshot {
   padding: 0px 22px;
