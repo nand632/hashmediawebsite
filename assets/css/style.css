@@ -10029,10 +10029,18 @@ button {
   .mobileDesc {
     margin-top: -150px;
   }
+  .multi{
+
+    max-width: 625px;
+  }
 }
 @media screen and (max-width: 1890px) {
   /* home hr management - start */
 
+  .multi{
+
+    max-width: 625px!important;
+  }
   .mobileThumbs {
     margin-top: 150px;
   }
