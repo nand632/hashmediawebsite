@@ -10022,7 +10022,7 @@ button {
 01 - media screen and (max-width: 1440px) - start
 ==================================================================================================== */
 
-@media screen and (min-width:1900px){
+@media screen and (min-width: 1900px) {
   .mobileThumbs {
     margin-top: 150px;
   }
@@ -20395,7 +20395,6 @@ button {
   .mobileDesc {
     margin-top: -50px;
   }
-
 
   .digital_agency_banner .shape_1 {
     top: -40px;
