@@ -9401,7 +9401,7 @@ button {
 /* header section - end */
 /* banner section - start */
 .payment_banner {
-  min-height: 1000px;
+  min-height: 700px;
   padding-top: 160px;
 }
 .payment_banner .shap_bottom path {
@@ -9427,7 +9427,7 @@ button {
 }
 .payment_banner .banner_image {
   z-index: 1;
-  width: 390px;
+  width: 100%;
   float: right;
   position: relative;
   margin-right: -40px;
@@ -11229,7 +11229,7 @@ button {
   /* home chat - end */
   /* home payment - start */
   .payment_banner .banner_image {
-    width: 340px;
+    /* width: 340px; */
   }
 
   .payment_banner .banner_image .apps_wrap > ul {
@@ -11815,7 +11815,7 @@ button {
   /* home payment - start */
   .payment_banner {
     min-height: auto;
-    padding-top: 260px;
+    /* padding-top: 260px; */
     padding-bottom: 80px;
   }
 
@@ -11829,7 +11829,7 @@ button {
 
   .payment_banner .banner_image {
     float: left;
-    width: 340px;
+    /* width: 340px; */
     margin-left: -50px;
   }
 
@@ -12771,7 +12771,7 @@ button {
   }
 
   .payment_banner .banner_image {
-    width: 330px;
+    /* width: 330px; */
     margin-left: -80px;
   }
 
@@ -13637,7 +13637,7 @@ button {
   /* home payment - start */
   .payment_banner .banner_image {
     float: none;
-    width: 260px;
+    /* width: 260px; */
     margin: 0px auto 30px;
   }
 
@@ -13686,8 +13686,8 @@ button {
   }
 
   .payment_banner {
-    min-height: auto;
-    padding-top: 230px;
+    height: 600px;
+    /* padding-top: 230px; */
     padding-bottom: 190px;
   }
 
@@ -17364,6 +17364,10 @@ button {
     max-width: 70px;
     right: 40px;
   }
+  .payment_banner{
+    min-height: 800px;
+  }
+
 
   .agency_banner .cloud_2,
   .agency_banner .cloud_3 {
@@ -18321,7 +18325,7 @@ button {
   }
 
   .payment_banner .banner_image {
-    width: 160px;
+    /* width: 160px; */
     margin: 0px auto 30px;
   }
 
