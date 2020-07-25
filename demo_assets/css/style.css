@@ -1359,8 +1359,9 @@ button {
 }
 .ecommerce_section .ecommerce_images .phone_image {
   z-index: 1;
-  left: -40px;
-  bottom: -38px;
+  width: auto;
+  left: 40px;
+  bottom: 38px;
   position: absolute;
 }
 .ecommerce_section .ecommerce_images .shop_card {
