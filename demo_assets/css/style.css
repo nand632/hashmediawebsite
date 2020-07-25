@@ -1458,6 +1458,10 @@ button {
     bottom: -33px;
     max-width: 190px;
   }
+
+  .multi_image {
+    max-width: 625px;
+  }
 }
 @media screen and (max-width: 1630px) {
   .ecommerce_section .ecommerce_images {
