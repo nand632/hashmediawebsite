@@ -9860,19 +9860,19 @@ button {
   top: 300px;
   left: 70%;
 }
-.h_map ul li:nth-child(5) {
+/* .h_map ul li:nth-child(5) {
   left: 88%;
   top: 250px;
-}
-.h_map ul li:nth-child(6) {
+} */
+/* .h_map ul li:nth-child(6) {
   top: 70%;
   left: 350px;
-}
-.h_map ul li:nth-child(7) {
+} */
+.h_map ul li:nth-child(5) {
   top: 60%;
   left: 54%;
 }
-.h_map ul li:nth-child(8) {
+.h_map ul li:nth-child(6) {
   top: 75%;
   left: 85%;
 }
@@ -20795,9 +20795,9 @@ button {
 #particles-js {
   background-image: linear-gradient(
     45deg,
-    #5991da 0%,
-    #5a5acc 52%,
-    #5d6de7 100%
+    #301cab 0%,
+    #4448d3 52%,
+    #5774fa 100%
   );
 }
 
