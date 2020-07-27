@@ -9845,7 +9845,7 @@ button {
   animation: ripple_small 2s linear infinite;
 }
 .h_map ul li:nth-child(1) {
-  top: 80px;
+  top: 150px;
   left: 100px;
 }
 .h_map ul li:nth-child(2) {
@@ -9857,12 +9857,12 @@ button {
   top: 180px;
 }
 .h_map ul li:nth-child(4) {
-  top: 250px;
+  top: 300px;
   left: 70%;
 }
 .h_map ul li:nth-child(5) {
-  left: 80%;
-  top: 100px;
+  left: 88%;
+  top: 250px;
 }
 .h_map ul li:nth-child(6) {
   top: 70%;
@@ -10029,17 +10029,15 @@ button {
   .mobileDesc {
     margin-top: -150px;
   }
-  .multi{
-
+  .multi {
     max-width: 625px;
   }
 }
 @media screen and (max-width: 1890px) {
   /* home hr management - start */
 
-  .multi{
-
-    max-width: 625px!important;
+  .multi {
+    max-width: 625px !important;
   }
   .mobileThumbs {
     margin-top: 150px;
@@ -17364,10 +17362,9 @@ button {
     max-width: 70px;
     right: 40px;
   }
-  .payment_banner{
+  .payment_banner {
     min-height: 800px;
   }
-
 
   .agency_banner .cloud_2,
   .agency_banner .cloud_3 {
@@ -20794,7 +20791,6 @@ button {
   cursor: pointer;
   font-size: 18px;
 }
-
 
 #particles-js {
   background-image: linear-gradient(
