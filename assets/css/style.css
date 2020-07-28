@@ -20803,10 +20803,10 @@ button {
 
 svg text {
   stroke: #ffffff;
-  font-size: 150px;
+  font-size: 100px;
   font-weight: 500;
   stroke-width: 3;
-  animation: textAnimate 5s infinite alternate;
+  animation: textAnimate 3s infinite alternate;
 }
 
 @keyframes textAnimate {
