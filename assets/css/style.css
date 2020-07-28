@@ -1450,7 +1450,7 @@ hr {
   transition-delay: 0.4s;
   transition-duration: 1s;
   transition-property: transform;
-  background-color: #051441;
+  background-color: #ffffff;
   transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
