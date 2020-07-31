@@ -788,7 +788,7 @@ hr {
   right: auto;
 }
 .btn.bg_white {
-  color: #4154f1;
+  color: #000000;
 }
 .btn.bg_white:hover {
   color: #ffffff;
@@ -20818,4 +20818,106 @@ svg text {
     stroke-dasharray: 50% 0;
     stroke-dashoffset: -20%;
   }
+}
+
+/* New  */
+
+@media (max-width: 767px) {
+  .content-block-wrap .content-wrap .theme-btn {
+    margin-right: 15px;
+  }
+}
+.content-block-wrap .vr-content {
+  background-size: cover;
+  max-height: 500px;
+  mix-blend-mode: multiply;
+  position: relative;
+  margin-left: -200px;
+  max-width: 500px;
+  margin-top: -245px;
+  margin-bottom: 28px;
+}
+@media (max-width: 1600px) {
+  .content-block-wrap .vr-content {
+    margin-left: 0px;
+    max-width: 100%;
+    margin-top: -150px;
+    min-height: 720px;
+  }
+}
+@media (max-width: 991px) {
+  .content-block-wrap .vr-content {
+    margin-left: 0px;
+    max-width: 100%;
+    min-height: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .content-block-wrap .vr-content {
+    margin-left: 0px;
+    max-width: 100%;
+    min-height: 78px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+  }
+}
+.content-block-wrap .vr-content .vr-carousel {
+  position: absolute;
+  bottom: -100px;
+  text-align: center;
+  left: 0;
+  width: 620px;
+  overflow: hidden;
+  padding: 100px 0px;
+}
+@media (max-width: 1400px) {
+  .content-block-wrap .vr-content .vr-carousel {
+    max-width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .content-block-wrap .vr-content .vr-carousel {
+    padding: 80px 0px;
+  }
+}
+.content-block-wrap .vr-content .vr-carousel .slick-list {
+  overflow: unset;
+  max-width: 100%;
+}
+.content-block-wrap .vr-content .single-vr-carousel.slick-slide {
+  margin: 0px;
+  min-height: 118px;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.content-block-wrap
+  .vr-content
+  .single-vr-carousel.slick-slide.slick-active.slick-center {
+  transform: scale(1.5);
+}
+
+.block-content span {
+  color: #04004d;
+  line-height: 1;
+  transition: 0.3s;
+  font-weight: 500;
+  padding: 11px 28px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  display: inline-block;
+  background-color: #ffedd2;
+  text-transform: uppercase;
+}
+
+.slick-slide img {
+  width: 300%;
+}
+.slick-slide {
+  margin: 30px 15px;
+}
+
+.slick-dots li button:before {
+  font-size: 15px;
 }
