@@ -13933,7 +13933,8 @@ button {
   .gallery_section .element_grid.column_2 .element-item,
   .casestudy_section .element_grid.column_2 .element-item,
   .portfolio_section .element_grid.column_2 .element-item {
-    width: 33.333%;
+    width: 100%;
+    height: 100%;
   }
 
   /* portfolio - end */
@@ -14699,13 +14700,15 @@ button {
   .gallery_section .element_grid.masonry_portfolio.column_4 .element-item,
   .casestudy_section .element_grid.masonry_portfolio.column_4 .element-item,
   .portfolio_section .element_grid.masonry_portfolio.column_4 .element-item {
-    width: 33.333%;
+    width: 100%;
+    height: 100%;
   }
 
   .gallery_section .element_grid.column_4 .element-item,
   .casestudy_section .element_grid.column_4 .element-item,
   .portfolio_section .element_grid.column_4 .element-item {
-    width: 33.333%;
+    width: 100%;
+    height: 100%;
   }
 
   /* portfolio - end */
@@ -14824,7 +14827,8 @@ button {
   .gallery_section .element_grid.column_4 .element-item,
   .casestudy_section .element_grid.column_4 .element-item,
   .portfolio_section .element_grid.column_4 .element-item {
-    width: 33.333%;
+    width: 100%;
+    height: 100%;
   }
 
   /* portfolio - end */
@@ -16244,7 +16248,8 @@ button {
   .gallery_section .element_grid.column_4 .element-item,
   .casestudy_section .element_grid.column_4 .element-item,
   .portfolio_section .element_grid.column_4 .element-item {
-    width: 50%;
+    width: 100%;
+    height: 100%;
   }
 
   /* portfolio - end */
@@ -17192,7 +17197,7 @@ button {
   .gallery_section .element_grid.masonry_portfolio.column_4 .element-item,
   .casestudy_section .element_grid.masonry_portfolio.column_4 .element-item,
   .portfolio_section .element_grid.masonry_portfolio.column_4 .element-item {
-    width: 50%;
+    width: 100%;
   }
 
   /* portfolio - end */
@@ -18569,18 +18574,21 @@ button {
   .casestudy_section .element_grid.column_2 .element-item,
   .portfolio_section .element_grid.column_2 .element-item {
     width: 100%;
+    height: 100%;
   }
 
   .gallery_section .element_grid.column_3 .element-item,
   .casestudy_section .element_grid.column_3 .element-item,
   .portfolio_section .element_grid.column_3 .element-item {
     width: 100%;
+    height: 100%;
   }
 
   .gallery_section .element_grid.column_4 .element-item,
   .casestudy_section .element_grid.column_4 .element-item,
   .portfolio_section .element_grid.column_4 .element-item {
     width: 100%;
+    height: 100%;
   }
 
   /* portfolio - end */
@@ -20920,4 +20928,14 @@ svg text {
 
 .slick-dots li button:before {
   font-size: 15px;
+}
+
+.vr-content img:hover {
+  transform: scale(1.1);
+}
+
+.zoom-gallery .element_grid .masonry_portfolio .column_4 {
+  width: 100%;
+  height: 100%;
+  position: middle;
 }
