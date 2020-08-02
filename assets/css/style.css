@@ -5357,7 +5357,7 @@ button {
 .portfolio_section .element_grid .element-item {
   float: left;
   padding: 15px;
-  width: 33.333%;
+  width: 30%;
   display: inline-block;
 }
 
@@ -5375,12 +5375,12 @@ button {
 .gallery_section .element_grid.column_2 .element-item,
 .casestudy_section .element_grid.column_2 .element-item,
 .portfolio_section .element_grid.column_2 .element-item {
-  width: 50%;
+  width: 30%;
 }
 .gallery_section .element_grid.column_3 .element-item,
 .casestudy_section .element_grid.column_3 .element-item,
 .portfolio_section .element_grid.column_3 .element-item {
-  width: 33.333%;
+  width: 30%;
 }
 .gallery_section .element_grid.column_3 .casestudy_grid .item_image,
 .casestudy_section .element_grid.column_3 .casestudy_grid .item_image,
@@ -5395,7 +5395,7 @@ button {
 .gallery_section .element_grid.column_4 .element-item,
 .casestudy_section .element_grid.column_4 .element-item,
 .portfolio_section .element_grid.column_4 .element-item {
-  width: 25%;
+  width: 30%;
 }
 .gallery_section .element_grid.column_4 .casestudy_fullimage .details_btn,
 .casestudy_section .element_grid.column_4 .casestudy_fullimage .details_btn,
