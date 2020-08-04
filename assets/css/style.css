@@ -20939,3 +20939,18 @@ svg text {
   height: 100%;
   position: middle;
 }
+
+
+.filter-main{
+  overflow: hidden;
+}
+
+.filterDiv{
+  display: none;
+  padding-bottom: 7em;
+}
+
+.show {
+  display: flex;
+}
+
