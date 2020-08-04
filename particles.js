@@ -513,7 +513,7 @@ var pJS = function (tag_id, params) {
 
     function rand(min, max) {
         var randomNum = Math.random() * (max - min) + min;
-        return Math.round(randomNum);
+        return randomNum;
     }
 
     pJS.fn.particlesUpdate = function () {
